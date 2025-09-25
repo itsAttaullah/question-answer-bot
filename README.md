@@ -28,7 +28,7 @@ The bot supports real-time streaming responses and remembers past conversations 
  ┗ 📂 __pycache__      # Auto-generated
 ⚙️ Installation
 1️⃣ Clone repo
-git clone https://github.com/itsAttaullah/question-answer.git
+git clone https://github.com/itsAttaullah/question-answer-bot.git
 cd simple-bot
 2️⃣ Create virtual environment
 python -m venv venv
