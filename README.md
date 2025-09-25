@@ -7,7 +7,7 @@ The bot supports real-time streaming responses and remembers past conversations 
 
 🔥 Streaming responses from Groq API
 
-💾 Persistent chat history stored in SQLite (or any SQL DB)
+💾 Persistent chat history stored in postgresql database
 
 📚 Context-aware conversations (last N messages are remembered)
 
