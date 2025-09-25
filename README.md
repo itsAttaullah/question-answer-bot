@@ -1,36 +1,3 @@
-# 🧠 AI Chatbot with Memory
-
-A conversational **AI chatbot** powered by **FastAPI**, **Streamlit**, **Groq API**, and **SQLAlchemy**. The bot supports **real-time streaming** responses and maintains **persistent conversation history** by storing past messages in a database.
-
----
-
-## 🚀 Features
-
-* **🔥 Streaming Responses:** Get rapid, real-time responses from the powerful Groq API.
-* **💾 Persistent History:** Chat history is stored using **SQLAlchemy** (defaulting to SQLite but easily configurable for PostgreSQL, MySQL, etc.).
-* **📚 Context-Aware:** The bot remembers the last $N$ messages to maintain a fluid, context-rich conversation.
-* **🎨 Simple Frontend:** A user-friendly chat interface built with **Streamlit**.
-* **⚡ Robust Backend:** A high-performance RESTful API powered by **FastAPI**.
-* **🐍 Pure Python:** Built entirely in Python.
-
----
-
-## 🏗️ Project Structure
-
-```bash
-📂 simple-bot
-┣ 📜 main.py       # FastAPI backend: API routes and core logic
-┣ 📜 crud.py       # Database operations (Create, Read, Update, Delete)
-┣ 📜 db_config.py  # SQLAlchemy engine and session setup
-┣ 📜 schemas.py    # Pydantic models for data validation
-┣ 📜 utils.py      # Groq API helper functions
-┣ 📜 frontend.py   # Streamlit UI for the chatbot
-┣ 📜 requirements.txt # Project dependencies
-┗ 📂 pycache     # Auto-generated
-That's an excellent clarification! You want the content in a single block, but use the standard GitHub Markdown features like headings (#), lists (* or -), code blocks (```), and bold/italics, instead of putting the entire thing in a single, large code block.
-
-Here is the correct, combined, and styled GitHub README content:
-
 Markdown
 
 # 🧠 AI Chatbot with Memory
