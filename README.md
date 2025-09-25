@@ -1,5 +1,3 @@
-Markdown
-
 # 🧠 AI Chatbot with Memory
 
 A conversational **AI chatbot** powered by **FastAPI**, **Streamlit**, **Groq API**, and **SQLAlchemy**. The bot supports **real-time streaming** responses and maintains **persistent conversation history** by storing past messages in a database.
